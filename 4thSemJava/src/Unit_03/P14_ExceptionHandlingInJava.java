@@ -4,6 +4,20 @@ import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/*
+ * Error & exception?
+ * at the point of occurrence of error we cannot cover recover but we can recover the exception
+ * if a program can handle a situation by itself-exception
+ * checked exception
+ * unchecked exception
+ * 
+ * terminal: javac sampleclass.java
+ *           java sampleclass.java
+ *           
+ * try and catch block?
+ * sensitive code in try block,else in catch
+ */
+
 public class P14_ExceptionHandlingInJava {
 	
 	public static void main(String args[])
