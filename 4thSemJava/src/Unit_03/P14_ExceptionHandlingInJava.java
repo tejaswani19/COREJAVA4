@@ -16,6 +16,19 @@ import java.util.Scanner;
  *           
  * try and catch block?
  * sensitive code in try block,else in catch
+ * If a code is broken in try then will it always go in catch? : Depends on whether you have used exception catch 
+   which will catch all the exceptions if any of it remains.
+ * Multiple catch is possible only if parent class comes after child class exceptions.
+ * Throws is used when it generates a warning that it will not catch the code.
+ * Finally is used for code readability, and it would always run if the exception has occurred or not because if
+   the exception comes it would run,  if exception does not come it  would run,
+   and if it is caught then also it runs. 
+ * Checked or compile time exceptions are those when complier knows that the exception is not handled and it 
+   forces you to use try and catch.
+ * If the compiler catches the exception at compile time then the program would not compile and then the compiler 
+   forces you to use try and catch to avoid the exception.
+ * If any exception bypasses the compiler process and break at run time then it is called run time exception
+  
  */
 
 public class P14_ExceptionHandlingInJava {
