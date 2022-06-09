@@ -17,9 +17,9 @@ import java.util.List;
 public class P15_FileHandling {
        public static void main(String args[])throws IOException  {
     	   ABC obj = new ABC();
-    	   //obj.takeInputFromAFileNotFromConsole();
+    	   obj.takeInputFromAFileNotFromConsole();
     	   //obj.saveOutputIntoAFile();
-    	   obj.saveLogOfProgram();
+    	   //obj.saveLogOfProgram();
        }
 }
 
